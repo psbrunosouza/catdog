@@ -1,0 +1,14 @@
+#navbar{
+	border-bottom: 1px solid #ccc;
+	box-shadow: 1px 1px 0.2px grey;
+	height: 65px;
+}
+
+a.text-teal{
+	margin-left: 25px;
+	color: #009688;
+}
+
+.text-teal li a{
+	color: #009688;
+}

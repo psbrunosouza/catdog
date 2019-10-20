@@ -2,10 +2,6 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
-body{
-	background: url("../img/tio_patinhas.png") repeat;
-}
-
 #navbar{
 	border-bottom: 1px solid #ccc;
 	box-shadow: 1px 1px 0.2px grey;
@@ -19,7 +15,4 @@ body{
 .navbar_mm{
 	border: 1px solid black;
 	height: 64px;
-}
-#formtest{
-	margin-left: ;
 }

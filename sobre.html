@@ -18,43 +18,75 @@
    <!-- start - Pagina -->
    <body>
 
-     <nav class="navbar navbar-expand-sm navbar-light bg-white">   
+     <nav class="navbar navbar-expand-sm navbar-light bg-white">
       <!-- icone -->
       <i class="fas fa-paw text-dark m-1"></i>
 
       <!--Logo -->
-      
-      <h1><a href="index.html" class="navbar-brand ">catdog</a></h1>
-      
+
+      <h1><a href="index.html" class="navbar-brand ">catdog</a> </h1>
+
 
       <!--Navegação -->
+      <!---->
+      <div class="collapse navbar-collapse" id="nav-target2">
+      <!---->
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+           <a href="" class="nav-link dropdown-toggle text-secondary" data-toggle="dropdown">Serviços</a>
+          <div class="dropdown-menu">
+             <form class="px-4 py-3">
+          <div class="form-group">
+              <label for="exampleDropdownFormEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              <label class="form-check-label" for="dropdownCheck">
+                Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-md btn-primary">Entrar</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="cadastrar.html">Novo, por aqui? Regitre-se.</a>
+          <a class="dropdown-item" href="#">Esqueceu a senha?</a>
+      </div>
+       </li>
+
           <li class="nav-item">
-            <a href="adotar.html" class="nav-link text-primary">Adote</a>
+            <a href="adotar.html" class="nav-link text-secondary ">Adote</a>
           </li>
 
           <li class="nav-item">
-            <a href="sobre.html" class="nav-link btn btn-outline-primary text-light active">Sobre</a>
+            <a href="sobre.html" class="nav-link text-secondary active">Sobre</a>
           </li>
 
           <li class="nav-item">
-            <a href="contatos.html" class="nav-link text-primary">Contatos</a>
+            <a href="contatos.html" class="nav-link text-secondary">Contatos</a>
           </li>
+          <!---->
+
+         <!---->
       </ul>
 
     </nav>
- 	
-    <div class="jumbotron bg bg-white"> 
+
+    <div class="jumbotron bg bg-white">
 	     <img src="./img/img2.jpg" width="100%" />
 
 	   </div>
 
      <div class="container-fluid row">
-     
+
       <h2 class="col-12 text-center display-3">
         Adote lindos pets
       </h2>
-      
+
 
       <div class="col-7 mx-auto mt-3">
         <p class="text-left lead"> Pensando em ter um animalzinho novo? Que tal adotar ao invés de comprá-lo? Assim, além de oferecer um recomeço para um pet abandonado – um problema, em especial, dos grandes centros urbanos -, essa também é uma forma de se posicionar contra a comercialização de cachorros e gatos. Caso você não saiba o que precisa para seguir em frente com os planos de adotar um companheiro e as vantagens dessa opção, o <span class="font-weight-bold">catdog</span> te conta!
@@ -66,10 +98,10 @@
 
 
       </div>
-      
+
     </div>
-     
-   
+
+
    </body>
    <!-- end - Pagina -->
    <script src="https://kit.fontawesome.com/396d03f51e.js"></script>
